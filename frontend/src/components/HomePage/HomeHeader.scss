@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.headerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+.welcome {
+    font-family: 'Lobster', cursive;
+    font-size: 1.8rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+}

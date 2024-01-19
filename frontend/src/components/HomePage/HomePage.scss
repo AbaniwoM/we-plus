@@ -1,0 +1,22 @@
+.homeContainer {
+    display: grid;
+    height: 100vh;
+    grid-template-areas: 
+      'header header header' 
+      'sidebar products products'
+      'sidebar products products'
+    ;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.products {
+    grid-area: products;
+}
